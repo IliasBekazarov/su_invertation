@@ -30,7 +30,8 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
           <Link to="/">
-            <img src="/images/logo.png" alt="Company Logo" />
+            <img src="/images/logoSU.png" alt="Company Logo" />
+            
           </Link>
         </div>
         <div className="hamburger" onClick={toggleMenu}>

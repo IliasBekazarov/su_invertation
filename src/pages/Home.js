@@ -15,17 +15,9 @@ const Home = () => {
         </video>
         <div className="hero-text">
           <h1>{t('home.heading')}</h1>
-          <p>{t('home.subheading')}</p>
+          
         </div>
       </div>
-
-      {/* Introduction Section */}
-      <div className="intro-section">
-        <h2>{t('home.intro.title')}</h2>
-        <p>{t('home.intro.description')}</p>
-      </div>
-
- 
 
       {/* Testimonials Section */}
       <div className="testimonials-section">
@@ -43,15 +35,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Video Section */}
-      <div className="video-section">
-        <h2>{t('home.videoSection.title')}</h2>
-        <video controls className="feature-video">
-          <source src="/videos/video2.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <p>{t('home.videoSection.description')}</p>
-      </div>
+      
     </div>
   );
 };

@@ -6,30 +6,23 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="about">
-      {/* Header Section */}
-      <div className="about-header">
-        <h1>{t('about.title')}</h1>
+    <div className="news">
+      <div className="news-header">
+        <h1>{t('news.title')}</h1>
       </div>
-
-      {/* Avatar Section */}
-      <div className="about-avatar">
-        <img src="/images/about1.png" alt="Avatar" className="avatar" />
-        <div className="about-info">
-          <p>{t('about.address')}</p>
-          <p>{t('about.phone')}</p>
-          <p>{t('about.email')}</p>
-          <p>{t('about.company')}</p>
-          <p>{t('about.license')}</p>
-        </div>
+      <div className="news-image">
+        <img src="/images/1floor.png" alt={t('news.imageAlt')} />
       </div>
-
-      {/* Additional Images Section */}
-      <div className="about-images">
-        <img src="/images/about2.png" alt="About Us 2" />
-        <img src="/images/about3.png" alt="About Us 3" />
+      <div className="news-content">
+        <p>{t('news.text1')}</p>
+        <p>{t('news.text2')}</p>
+        <p>{t('news.text3')}</p>
+        <p>{t('news.text4')}</p>
+        <p>{t('news.text5')}</p>
+        <p>{t('news.text6')}</p>
+        <p>{t('news.text7')}</p>
       </div>
-    </div>
+      </div>
   );
 };
 

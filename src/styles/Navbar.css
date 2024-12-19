@@ -3,7 +3,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #333;
+  background-color: #0c00fa;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,8 @@
 
 .navbar-logo img {
   height: 70px;
-  width: 200px;
+  width: 70px;
+  border-radius: 50%;
 }
 
 .navbar-right {

@@ -1,10 +1,10 @@
 {
   "navbar": {
     "home": "Home",
-    "about": "About Us",
-    "projects": "Projects",
-    "news": "Our News",
-    "contact": "Contacts Information",
+    "about": "1st floor",
+    "projects": "2nd floor",
+    "news": "3rd floor",
+    "contact": "4th floor",
     "textUs": "Text Us"
   },
   "footer": {
@@ -16,7 +16,7 @@
     "description": "Hello! I am a professional model and a highly skilled web developer with two years of experience in web development. I graduated from Lincoln University and have worked on numerous projects involving modern web technologies. I am passionate about programming, creativity, and technology."
   },
   "home": {
-    "heading": "Welcome to Urban Construction",
+    "heading": "Welcome to Salymbekov University",
     "subheading": "Innovating the future, one project at a time.",
     "intro": {
       "title": "Who We Are",
@@ -38,7 +38,7 @@
       }
     },
     "testimonials": {
-      "title": "What Our Clients Say",
+      "title": "Thoughts about us",
       "testimonial1": "Urban Construction transformed my vision into reality. Highly recommended!",
       "testimonial2": "Their team was professional, efficient, and creative throughout the process.",
       "testimonial3": "The best construction company I've worked with. Exceptional quality and service."
@@ -67,7 +67,7 @@
     }
   },
   "news": {
-    "title": "Our News",
+    "title": "Our floor",
     "imageAlt": "Company news image",
     "text1": "Stay updated with the latest news about our company, its projects, and achievements.",
     "text2": "Urban Construction continues to innovate and deliver high-quality construction solutions.",

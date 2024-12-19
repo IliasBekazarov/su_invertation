@@ -24,34 +24,40 @@ const Projects = () => {
 
   return (
     <div className="projects">
-      <div className="carousel">
-        <button className="carousel-btn left" onClick={handlePrev}>
-          &#10094;
-        </button>
-        <div className="carousel-image">
-          <img src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} />
-        </div>
-        <button className="carousel-btn right" onClick={handleNext}>
-          &#10095;
-        </button>
+     <div className="news-header">
+        <h1>{t('news.title')}</h1>
       </div>
-
-      <div className="project-description">
-        <h2>{t('projects.description.title')}</h2>
-        <p>{t('projects.description.text')}</p>
-        <p>{t('projects.contact')}</p>
+      <div className="news-image">
+        <img src="/images/2floor.png" alt={t('news.imageAlt')} />
       </div>
-
-      <div className="map">
-        <h3>{t('projects.map.title')}</h3>
-        <iframe
-          src="https://yandex.ru/map-widget/v1/-/CCUncNHTTC"
-          width="100%"
-          height="400"
-          frameBorder="0"
-          allowFullScreen
-          title="Project Location"
-        ></iframe>
+      <div className="news-content">
+      <p>2 этаж</p>
+        <p>{t('news.text1')}</p>
+        <p>{t('news.text2')}</p>
+        <p>{t('news.text3')}</p>
+        
+      </div>
+      <div className="news-header">
+        <h1></h1>
+      </div>
+      <div className="news-image">
+        <img src="/images/202room.png" alt={t('news.imageAlt')} />
+      </div>
+      <div className="news-content">
+        <p>202 кабинет – это просторная аудитория, где проводятся практические занятия. Здесь студенты отрабатывают полученные знания, работают над проектами и выполняют задания. Кабинет оснащён компьютерами и необходимым оборудованием для комфортной работы.</p>
+        
+        
+      </div>
+      <div className="news-header">
+        <h1></h1>
+      </div>
+      <div className="news-image">
+        <img src="/images/207room.png" alt={t('news.imageAlt')} />
+      </div>
+      <div className="news-content">
+        <p>307 кабинет – это аудитория для проведения занятий, семинаров и консультаций. Здесь студенты обсуждают учебные темы, задают вопросы преподавателям и работают над групповыми проектами. Кабинет оборудован для комфортного обучения и совместной работы</p>
+        
+        
       </div>
     </div>
   );

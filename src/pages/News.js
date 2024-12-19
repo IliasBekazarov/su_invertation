@@ -11,18 +11,15 @@ const News = () => {
         <h1>{t('news.title')}</h1>
       </div>
       <div className="news-image">
-        <img src="/images/newsimage.jpg" alt={t('news.imageAlt')} />
+        <img src="/images/303room.png" alt={t('news.imageAlt')} />
       </div>
       <div className="news-content">
-        <p>{t('news.text1')}</p>
-        <p>{t('news.text2')}</p>
-        <p>{t('news.text3')}</p>
-        <p>{t('news.text4')}</p>
-        <p>{t('news.text5')}</p>
-        <p>{t('news.text6')}</p>
-        <p>{t('news.text7')}</p>
+        <p>Актовый зал на 3 этаже – это просторное помещение, предназначенное для проведения различных мероприятий. Здесь проходят собрания, конференции, праздничные концерты и студенческие выступления. </p>
+        <p>Зал оборудован сценой, звуковой аппаратурой и удобными местами для зрителей, что делает его центральным местом для важных событий в колледже.</p>
+    
       </div>
     </div>
+    
   );
 };
 
